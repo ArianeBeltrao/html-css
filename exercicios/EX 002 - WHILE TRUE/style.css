@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    
+}
+
+.linksiphone {
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+}
+
+.linksiphone:hover {
+    color: rgb(0, 132, 255);
+}
+
+.tituloiphone {
+    margin-top: 120px;
+    font-size: 25px;
+    text-align: center;
+    padding: 0px;
+    border: 0px;
+    margin-bottom: 0px;
+}
+
+.tituloiphoneh1 {
+    text-align: center;
+    font-size: 70px;
+    padding: 0px;
+    border: 0px;
+    margin-top: 5px;
+}
+
+.video-mobile {
+    width: 100%;
+}
+
+.cameraiphone {
+    width: 70%;
+}
+
+.tamanhocelular {
+    width: 50%;
+    border: 10px solid pink;
+}
+
+.textocinza {
+    font-weight: bolder;
+    font-size: 60px;
+    margin: auto;
+    padding: 50px;
+    border: 30px solid red;
+
+}
+
+/*formularios */
+.main-form {
+    padding-left: 10px;
+}
+
+.main-form .form-group {
+    padding-bottom: 10px;
+}
+
+.main-form .form-group input {
+    padding-right: 300px;
+    padding-bottom: 5px;
+}
+
+.main-form .form-group label {
+    display: block;
+    /*foi aqui que quebrou a linha*/
+}
+
+.button {
+    padding: 10px;
+    background-color: #333;
+    color: #eee;
+    border: none;
+    border-radius: 10%;
+}
+
+.box {
+    width: 90%;
+    margin: auto;
+}
+/*barra de navegação*/
+#main-navbar {
+    background-color: white;
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid rgb(150, 146, 146);
+    position: sticky;
+    top: 0%;
+}
+

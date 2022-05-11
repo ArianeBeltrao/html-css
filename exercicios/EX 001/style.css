@@ -1,0 +1,50 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: lowercase;
+  background-color: yellowgreen;
+  margin: auto;
+}
+
+.post {
+   background: white; 
+   padding: 10px 30px 10px 30px;
+   border-radius: 5%;
+}
+
+#title, .subtitle, .posttitle {
+    color: black;
+}
+.posttitle {
+    font-size: 16px;
+    font-style: italic;
+}
+
+.foto-gato {
+    width: 200px;
+    border-radius: 50%;
+}
+
+.foto-ave {
+    width: 100px;
+    position: center;
+    border-radius: 50%;
+}
+
+
+
+#title, .subtitle {
+    margin: 30px;
+}
+
+.postconteudo {
+    margin: 0;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    text-align: justify;
+}
+.contato-lista {
+    list-style-position:inside;
+    list-style-image: url(emailrosa.png);
+    text-decoration: underline;
+}
