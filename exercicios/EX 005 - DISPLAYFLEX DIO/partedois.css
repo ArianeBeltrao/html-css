@@ -1,0 +1,98 @@
+.flex-container{
+    display: flex;
+    border: 2px solid pink;
+    max-width: 600px;
+    justify-content: center;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.item{
+    background-color: orange;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+    font-size: 24px;
+    color: white;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    flex-direction: ;
+}
+
+.fg-0{
+    flex-grow: 0; /*defaut, já vem assim, ele define a proporcionalidade de crescimento dos itens, respeitando o tamanho de seus conteudos internos. NÃO FUNCIONA SE ANTES TIVER O JUSTIFY-CONTENT*/
+}
+
+.fg-1{
+    flex-grow: 1;
+}
+
+.fg-2{
+    flex-grow: 2;
+}
+
+.fg-3{
+    flex-grow: 3;
+}
+
+.bauto{
+    flex-basis: auto; /*tamanho inicial do item antes de distribuir o espaço restante dentro dele, é o tamanho minimo de cada retangulo laranja, no auto ele é defaut*/
+}
+
+.b-0{
+    flex-basis: 0;
+}
+
+.sk-1 /*estabelece a capacidade de redução e compressão do tamanho de um item*/{
+    flex-shrink: 1;
+    flex-basis: 100px; /*então o shrink vai comprimir pros itens não sairem do container*/
+}
+
+.sk-0{
+    flex-shrink: 0;
+    flex-basis: 100px;
+}
+
+
+.sk-2{
+    flex-shrink: 2;
+}
+
+.sk-3{
+    flex-shrink: 3;
+}
+
+.flex-1{
+    flex: 1; /* grow=1, shrink=1, basis=0 */ 
+}
+
+.largura{
+    width: 200px;
+    /*min-width:250px;*/
+}
+
+.flex-2{
+    flex: 2; /* grow=2, shrink=1, basis=0 */ 
+}
+
+.o1{
+    order: 1;
+}
+
+.o2{
+    order: 2;
+}
+
+.o3{
+    order: 3;
+}
+
+.o-1{
+    order: -1;
+}
+
+.direction{
+    flex-direction: column;
+}

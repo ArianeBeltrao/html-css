@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./partedois.css">
+    <title>Fundamentos do Flexbox - Parte 2</title>
+</head>
+<body>
+    <h1 align="center">flex-grow:0</h1>
+    <div class="flex-container">
+        <div class="item fg-0">a</div>
+        <div class="item fg-0">b</div>
+        <div class="item fg-0">c</div>
+        <div class="item fg-0">d</div>
+    </div>
+    <h1 align="center">flex-grow:1</h1>
+    <div class="flex-container">
+        <div class="item fg-1">a</div>
+        <div class="item fg-1">b</div>
+        <div class="item fg-1">c</div>
+        <div class="item fg-1">d</div>
+    </div>
+    <h1 align="center">flex-grow:1, 2, 3, 1</h1>
+    <div class="flex-container">
+        <div class="item fg-1">a</div>
+        <div class="item fg-2">b</div>
+        <div class="item fg-3">c</div>
+        <div class="item fg-1">d</div>
+    </div>
+    <h1 align="center">flex-grow: alternados</h1>
+    <div class="flex-container">
+        <div class="item fg-1">aaa</div>
+        <div class="item fg-1">bbbb</div>
+        <div class="item fg-1">cccccc</div>
+        <div class="item fg-1">dddddd</div>
+    </div>
+    <h1 align="center">flex-basis: auto</h1>
+    <div class="flex-container">
+        <div class="item bauto fg-1">aaa</div>
+        <div class="item bauto fg-1">bbbb</div>
+        <div class="item bauto fg-1">cccccc</div>
+        <div class="item bauto fg-1">dddddd</div>
+    </div>
+    <h1 align="center">flex-basis: 0</h1>
+    <div class="flex-container">
+        <div class="item b-0">aa</div>
+        <div class="item b-0 fg-3">bbbb</div>
+        <div class="item b-0 fg-3">cc</div>
+        <div class="item b-0 fg-3">dddddd</div>
+    </div>
+
+    <h1 align="center">flex-shrink:1</h1>
+    <div class="flex-container">
+        <div class="item sk-1 fg-1">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</div>
+        <div class="item sk-1 fg-1">bbbb</div>
+        <div class="item sk-1 fg-1">cc</div>
+        <div class="item sk-1 fg-1">dddddd</div>
+    </div> 
+
+    <h1 align="center">flex-shrink:0 / basis:100px</h1>
+    <div class="flex-container">
+        <div class="item sk-0 fg-1">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</div>
+        <div class="item sk-0 fg-1">bbbb</div>
+        <div class="item sk-0 fg-1">cc</div>
+        <div class="item sk-0 fg-1">dddddd</div>
+    </div>    
+
+    <h1 align="center">flex-shrink:2 / basis:100px</h1>
+    <div class="flex-container">
+        <div class="item sk-2 fg-1">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</div>
+        <div class="item sk-2 fg-3">bbbb</div>
+        <div class="item sk-2 fg-1">cc</div>
+        <div class="item sk-2 fg-1">dddddd</div>
+    </div>
+
+    <h1 align="center">flex:1</h1>
+    <div class="flex-container">
+        <div class="item flex-1">aaaaaaaaaaaaaaaaa</div>
+        <div class="item flex-1">bbbbbbbbbbbbbb</div>
+        <div class="item flex-1">cccccccccccccc</div>
+        <div class="item flex-1">dddddd</div>
+    </div>
+
+    <h1 align="center">flex mix</h1>
+    <div class="flex-container">
+        <div class="item flex-2">aaaaaaaaaaaaaaaaa</div>
+        <div class="item flex-2">bbbbbbbbbbbbbb</div>
+        <div class="item flex-1">cccccccccccccc</div>
+        <div class="item flex-1">dd</div>
+    </div>
+
+    <h1 align="center">width ignorado</h1>
+    <div class="flex-container">
+        <div class="item flex-1 largura">aaaaaaaaaaaaaaaaa</div>
+        <div class="item flex-1 largura">bbbbbbbbbbbbbb</div>
+        <div class="item flex-1 largura">cccccccccccccc</div>
+        <div class="item flex-1 largura">dddddd</div>
+    </div>
+
+    <h1 align="center">order mix</h1>
+    <div class="flex-container">
+        <div class="item o3">a</div>
+        <div class="item o2">b</div>
+        <div class="item o1">c</div>
+        <div class="item o1">d</div>
+    </div>
+
+    <h1 align="center">order column</h1>
+    <div class="flex-container direction">
+        <div class="item o3">a</div>
+        <div class="item o2">b</div>
+        <div class="item o1">c</div>
+        <div class="item o1">d</div>
+    </div>
+
+    <h1 align="center">order column negativa</h1>
+    <div class="flex-container direction">
+        <div class="item o-1">a</div>
+        <div class="item o2">b</div>
+        <div class="item o-1">c</div>
+        <div class="item o3">d</div>
+    </div>
+</body>
+</html>
