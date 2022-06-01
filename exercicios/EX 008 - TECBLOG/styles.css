@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 1em;
+    background-color: #e6e6e6;
+}
+
+#area-cabecalho{
+    background-color: #f7b600;
+    text-align: center;
+    padding: 20px;
+}
+
+#area-logo,
+#area-menu{
+    padding: 10px;
+}
+
+a{
+    color: white;
+    padding: 8px 12px;
+
+
+}
+
+.branco{
+    color: white;
+}
